@@ -13,6 +13,10 @@ This project implements a cutting-edge 3D reconstruction pipeline that combines 
 
 
  Setup Agisoft Metashape and COLMAP as per their official instructions.
+## Steps we implemented
+1) We have taken a video of a ball.
+2) Then we have extracted the frames from the video which is basically the ball from all sides or every poin of view.
+
 
 ## Usage
 - Prepare images with known camera poses or run COLMAP for pose estimation.  
