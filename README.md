@@ -15,13 +15,15 @@ This project implements a cutting-edge 3D reconstruction pipeline that combines 
  Setup Agisoft Metashape and COLMAP as per their official instructions.
 ## Steps we implemented
 1) We have taken a video of a ball.
-2) Then we have extracted the frames from the video which is basically the ball from all sides or every poin of view.
+2) Then we have extracted the frames from the video which is basically the ball from all sides or every point of view.
+   
 ![Screenshot](001.png)    ![Screenshot](19.png)   ![Screenshot](20.png)  ![Screenshot](40.png)  ![Screenshot](149.png)  ![Screenshot](250.png)
 
 
+3) Generate a detailed cloud that accurately represents scene geometry in the Agisoft MetaShape
+4) Create a 3D surface mesh and apply realistic textures from source images.
 
-
-
+![Screenshot](001.png)
 
 ## Usage
 - Prepare images with known camera poses or run COLMAP for pose estimation.  
