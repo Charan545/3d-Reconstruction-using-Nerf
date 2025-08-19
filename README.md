@@ -23,7 +23,10 @@ This project implements a cutting-edge 3D reconstruction pipeline that combines 
 3) Generate a detailed cloud that accurately represents scene geometry in the Agisoft MetaShape
 4) Create a 3D surface mesh and apply realistic textures from source images.
 
-![Screenshot](001.png)
+![Screenshot](a.png)
+![Screenshot](b.png)
+![Screenshot](c.png)
+![Screenshot](d.png)
 
 ## Usage
 - Prepare images with known camera poses or run COLMAP for pose estimation.  
